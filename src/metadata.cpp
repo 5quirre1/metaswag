@@ -11,11 +11,11 @@ void readMetadata(const std::string &file)
 
     auto *tag = f.tag();
     std::cout
-        << "Title:  " << tag->title() << "\n"
-        << "Artist: " << tag->artist() << "\n"
-        << "Album:  " << tag->album() << "\n"
-        << "Year:   " << tag->year() << "\n"
-        << "Track:  " << tag->track() << "\n";
+        << "title:  " << tag->title() << "\n"
+        << "artist: " << tag->artist() << "\n"
+        << "album:  " << tag->album() << "\n"
+        << "year:   " << tag->year() << "\n"
+        << "track:  " << tag->track() << "\n";
 }
 
 void writeMetadata(
